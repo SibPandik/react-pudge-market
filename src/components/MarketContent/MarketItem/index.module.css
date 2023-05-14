@@ -1,0 +1,46 @@
+.content {
+    background-color: #080a0a; 
+    margin: 15px;
+    border-radius: 10px; 
+    
+}
+
+.image {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.btn_buy {
+    border: none;
+    height: 35px;
+    width: 170px;
+    background-color: #46a11e;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    transition: .3s;
+}
+
+.btn_buy:hover {
+    background-color: #5cc530;
+}
+

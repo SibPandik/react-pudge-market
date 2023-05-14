@@ -1,0 +1,27 @@
+.content {
+    color: white;
+    background: rgb(36,38,39);
+    background: linear-gradient(90deg, rgba(36,38,39,1) 0%, rgba(16,20,21,1) 100%);
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 25px;
+    height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1vw;
+    height: 100vh;
+}
+
+@media (max-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 3vw;
+        height: 100vh;
+    }
+}

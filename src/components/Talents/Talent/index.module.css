@@ -1,0 +1,28 @@
+.talent_item {
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #080a0a;
+    border-radius: 10px;
+    
+}
+
+.talent_wrapper {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.talent_item-name {
+    font-size: 20px;
+}
+
+.talent_item-description {
+    font-family: 'Comfortaa', cursive;
+}
+
+@media (min-width: 1200px) {
+    .talent_item-description {
+        font-size: 17px;
+    }
+}
