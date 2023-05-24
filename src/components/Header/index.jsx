@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 
 import styles from './index.module.css';
-import { Link } from 'react-router-dom';
+
 import Modal from '../Modal';
 import ModalValid from '../ModalValid';
+import Links from './Links';
+import Burger from './Burger';
 
 const Header = () => {
 
@@ -21,18 +23,14 @@ const Header = () => {
 
   return (
     <div className={styles.header} id="header">
-      <div className={styles.header_links}>
-        <Link to="/">
-          <div className={styles.header_links_item}>Главная</div>
-        </Link>
-        <a href="#talent">
-          <div className={styles.header_links_item}>Таланты</div>
-        </a>
 
-        <Link to="/market">
-          <div className={styles.header_links_item}>Магазин</div>
-        </Link>
+      {/* Если ширина больше 750 то будет показываться компонент <Links/> 
+      если меньше то компонента <Burger/>, это реализовано через css. Если выполняется
+      условие то display: none для какого либо элемента*/}
+      <div className={styles.links_wrapper}>
+        <Links/>
       </div>
+      <Burger/>
 
       <div id="myBtn" className={styles.header_registr}>
         <button className={styles.header_registr_link} onClick={() => setModalActive(true)}>

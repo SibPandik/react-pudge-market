@@ -1,11 +1,8 @@
 .content {
     color: white;
-    background: rgb(36,38,39);
-    background: linear-gradient(90deg, rgba(36,38,39,1) 0%, rgba(16,20,21,1) 100%);
     border-radius: 10px;
     padding: 5px;
     padding-bottom: 25px;
-    height: 100vh;
 }
 
 .grid {

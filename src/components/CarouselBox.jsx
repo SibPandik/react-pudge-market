@@ -18,15 +18,15 @@ const CarouselBox = () => {
         {/* <!-- Wrapper for slides --> */}
         <div class="carousel-inner">
           <div class="item active">
-            <img src={image1} alt="Los Angeles" />
+            <img src={image1} alt="Pudge" />
           </div>
 
           <div class="item">
-            <img src={image2} alt="Chicago" />
+            <img src={image2} alt="El_Padjino" />
           </div>
 
           <div class="item">
-            <img src={image3} alt="New york" />
+            <img src={image3} alt="Pidjak" />
           </div>
         </div>
 

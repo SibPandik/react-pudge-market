@@ -26,3 +26,35 @@
         font-size: 17px;
     }
 }
+
+.talent_wrapper {
+    position: relative;
+}
+
+.gif_wrapper {
+    background: linear-gradient(90deg, rgba(16,20,21,1) 0%, rgba(36,38,39,1) 100%);
+    border-radius: 5px;
+
+}
+
+.gif {
+    z-index: 9999;
+  }
+
+.gifka {
+    padding: 5px;
+    border-radius: 5px;
+    width: 410px;
+}
+
+@media (max-width: 630px) {
+    .gifka {
+        width: 350px;
+    }
+}
+
+@media (max-width: 570px) {
+    .gifka {
+        width: 320px;
+    }
+}

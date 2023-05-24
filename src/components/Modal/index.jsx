@@ -33,10 +33,6 @@ const Modal = ({ active, onClose, modalActive, activeValid, activeVal }) => {
               <label for="password">Пароль:</label>
               <input type="password" id="password" name="password" required />
             </div>
-            <div class="form-group">
-              <label for="password-confirm">Подтверждение пароля:</label>
-              <input type="password" id="password-confirm" name="password-confirm" required />
-            </div>
             <button type='submit' class="btn btn-primary" id="btnReg" onClick={handleClick} >
               Зарегистрироваться
             </button>

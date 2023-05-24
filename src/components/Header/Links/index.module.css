@@ -1,0 +1,12 @@
+.header_links {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.header_links_item {
+    color: black;
+    margin-right: 15px;
+    margin-top: 6px;
+    font-size: 15px;
+}

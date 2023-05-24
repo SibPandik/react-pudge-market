@@ -13,7 +13,7 @@ const comment_data = [
   },
   {
     "id": 1,
-    "imageUrl": "https://www.meme-arsenal.com/memes/c1394931b88653f3671b41fa9583d644.jpg",
+    "imageUrl": "https://i.ytimg.com/vi/G0yfNuQtUhY/maxresdefault.jpg",
     "name": "Shadow Fiend",
     "date": "February 28, 2023",
     "text": "Вот это мужчина!",

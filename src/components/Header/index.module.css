@@ -4,6 +4,11 @@
     justify-content: space-between;
     padding-top: 10px;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 15px 0px;
+    z-index: 1;
 }
 
 @media (min-width: 1200px) {
@@ -12,16 +17,11 @@
     }
 }
 
-.header_links {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
 
-.header_links_item {
-    color: black;
-    margin-right: 15px;
-       
+@media (max-width: 750px) {
+    .links_wrapper {
+        display: none;
+    }
 }
 
 .header_registr {
